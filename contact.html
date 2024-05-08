@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+.item0{ grid-area: logo;}
+.item1 { grid-area: header; }
+.item2 { grid-area: img; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: cbe; }
+.item6 { grid-area: nam; }
+.item7 { grid-area: thiru; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'logo logo header header header header'
+    'img img main main right right'
+    'cbe cbe nam nam thiru thiru';
+gap: 10px;
+background-color: #1e1f20;
+size: 100%;
+}
+.grid-container > div {
+  background-color: #1e1f20;
+  text-align: center;
+  font-size: 20px;
+    </style>
+    <style>
+        h1 {font-size: 50 px;
+        color: rgba(241, 241, 239, 0.756);
+    text-align: left;
+}
+    h3{font-style: font-style="Josefin Sans", sans-serif;
+    color: aliceblue;}
+    h2{
+        color:white
+    }
+    body{
+        height: 100%;
+    }
+    p{size: 35px;
+    color: white;}
+    a:link{color: white;}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="item0"><img src="c:\Users\hp 1\Documents\visual studio\logo.jpg"width=200 height="200"></div>
+  <div class="item1"><h1 style="font-size: 50px;color:yellow;"><marquee><b> CONTACT US</b></marquee></h1></div>
+  <div class="item2"><img src="c:\Users\hp 1\Documents\visual studio\cbeimg.jpg"height="160" width="300"></div>
+  <div class="item3"><img src="c:\Users\hp 1\Documents\visual studio\namimg.png"height="160" width=300"></div>  
+  <div class="item4"><img src="c:\Users\hp 1\Documents\visual studio\thiriimg.png"height="160" width="300"></div>
+  <div class="item5">
+        <p style="color: white;size: 30px;">561, DB Road M.S complex R.S puram Post office,Coimbatore,
+             Tamil Nadu 641002 </p><p>Phone No: 09787940011</p> <p><a href="contact@dotberrys.com">Email: contact@dotberrys.com</a></p></div>
+  <div class="item6">
+            <p style="color: white;size: 30px;">425, 120B, Salem Rd, next to LP showroom, R.P Pudur, Namakkal, Tamil Nadu 637001</p>
+
+                <p>Phone No: 09843986699</p>
+                
+                <p><a href="contact@dotberrys.com">Email: contact@dotberrys.com</a></p>
+        </div>
+        <div class="item7">
+            <p style="color: white;size: 30px;">40, 102, S Car St, next to City Union Bank,Kamalar, Tiruchengode, Tamil Nadu . </p><p>Phone No: 07373638999</p><p><a href="contact@dotberrys.com">Email: contact@dotberrys.com</a></p>
+        </div>
+        </div>
+        </body>
+    </html>
